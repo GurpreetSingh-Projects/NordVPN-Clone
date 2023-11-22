@@ -1,0 +1,439 @@
+div,
+body,
+section {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  font-family: Inter;
+  line-height: 24px;
+}
+
+.ip-lookup {
+  display: flex;
+  flex: 1;
+  border: 0;
+  background-color: black;
+  color: white;
+  height: 20px;
+  right: 0;
+  left: 0;
+  margin: 0px;
+  padding-top: 5px;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: bold;
+  z-index: 201;
+}
+
+.ip-lookup span {
+  color: red;
+}
+.header {
+  position: sticky;
+  top: 0;
+  height: 60px;
+  left: 0;
+  right: 0;
+  padding-top: 0px;
+  font-size: 16px;
+  display: flex;
+  z-index: 100;
+  background-color: white;
+  border-bottom: 1px;
+  box-shadow: 0px 0px 3px grey;
+}
+.logo {
+  height: 25px;
+  margin-left: 10px;
+  margin-top: 16px;
+  display: flex;
+  margin-right: 40px;
+}
+.middle {
+  display: flex;
+  flex: 1;
+}
+.element {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: opacity 0.5s, font-size 0.15s;
+}
+.element:hover {
+  opacity: 50%;
+  font-size: 20px;
+}
+
+.right {
+  display: flex;
+  right: 0;
+  margin-left: 150px;
+  padding: auto;
+}
+.right button,
+.bluebutton {
+  position: relative;
+  color: white;
+  background-color: rgb(224, 47, 31);
+  border-radius: 100px;
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin: auto;
+  border: 0;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px grey;
+  border: 0;
+  transition: opacity 0.3s;
+}
+.right button:hover,
+.bluebutton:hover {
+  opacity: 50%;
+}
+.right .button1,
+.bluebutton {
+  font-size: 14px;
+  font-family: inter;
+}
+.right .button1:active {
+  background: rgb(189, 39, 25);
+}
+.bluebutton:active {
+  background-color: rgb(0, 42, 255);
+}
+
+.right .element {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  font-size: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.right img {
+  height: 20px;
+  margin: auto;
+  padding-right: 20px;
+}
+.textbox {
+  height: 8vh;
+  background-color: #e5e9f0bb;
+  padding: 48vh;
+  padding-left: 100px;
+}
+.meetnordcontainer {
+  position: relative;
+}
+.headingmeetnord,
+.text1,
+.howitallstarted,
+.section_4 .text-1,
+.section_5,
+.section_7 .heading,
+.section_8 .heading,
+.section_10 .text-1 {
+  flex: 1;
+  font-family: Inter;
+  font-size: 38px;
+  font-weight: 600;
+}
+.howitall {
+  display: block;
+}
+.meetnordpara,
+.ourmission .text2,
+.section_8 .para {
+  display: flex;
+  flex: 1;
+  padding-top: 14px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  padding-top: 20px;
+}
+.image1 {
+  right: 10vw;
+  position: absolute;
+  top: 20vh;
+}
+.ourmission {
+  height: 25vh;
+  background-color: rgb(248, 248, 248);
+  position: relative;
+  left: 0;
+  right: 0;
+  padding-left: 100px;
+}
+.ourmission .text1 {
+  position: absolute;
+  flex-direction: column;
+  font-weight: 600;
+  font-size: 28px;
+  padding-bottom: 28px;
+  padding-top: 5%;
+}
+.ourmission .text2,
+.thesparkpara,
+.section_4 .text-2,
+.section_6 .text2,
+.section_8 .para,
+.section_8 .para,
+.section_10 .text-2 {
+  color: rgb(77, 78, 86);
+  padding-left: 45%;
+  font-weight: 400;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+.howitallstarted,
+.section_4 .text-1,
+.section_5,
+.section_7 .heading,
+.section_8 .heading,
+.section_10 .text-1 {
+  padding-top: 90px;
+  padding-bottom: 50px;
+  align-items: center;
+  text-align: center;
+}
+.image-2,
+.image-4 {
+  margin-left: 7%;
+  display: inline-flex;
+  padding: 0px;
+  position: absolute;
+  padding-bottom: 13vh;
+}
+.thespark,
+.thesparkpara,
+.section_8 .para {
+  position: absolute;
+  padding-left: 55%;
+  padding-top: 15%;
+  border-left-color: rgb(62, 95, 255);
+}
+.section_8 .para {
+  position: relative;
+}
+.thespark,
+.section_6 .text1,
+.section_7 .grid_heading {
+  padding-top: 12%;
+  padding-left: 55%;
+  font-weight: 500;
+  font-size: 20px;
+}
+.section_4,
+.section_10 {
+  display: absolute;
+  margin-left: 120px;
+  margin-right: 120px;
+  height: 290px;
+  background-color: #dae2f086;
+  margin-top: 100vh;
+  border-radius: 25px;
+  border: 0;
+}
+.section_4 .text-1,
+.section_10 .text-1 {
+  display: flex;
+  flex: 1;
+  padding-left: 0;
+  position: relative;
+  color: rgb(56, 56, 56);
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.section_4 .text-2,
+.section_10 .text-2 {
+  display: flex;
+  flex: 1;
+  position: relative;
+  justify-content: center;
+  padding-left: 0;
+  padding-top: 0%;
+}
+.bluebutton {
+  background: rgb(62, 95, 255);
+  margin-left: 41%;
+  margin-right: 40%;
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: -30px;
+}
+.section_5,
+.section_9 {
+  padding-top: 80px;
+  padding-bottom: 70px;
+}
+.section_6 {
+  display: grid;
+  position: relative;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 60px;
+}
+.section_6_container {
+  margin-top: 100px;
+}
+.section_6 .text2 {
+  padding-top: 15px;
+}
+.section_6 .text1,
+.section_6 .text2 {
+  padding-left: 100px;
+}
+.section_7 {
+  background-color: rgba(226, 217, 217, 0.486);
+  position: relative;
+  height: 125vh;
+}
+.section_7 .heading {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  padding-left: 130px;
+  padding-right: 130px;
+  margin: 0;
+  text-align: center;
+}
+
+.section_7 .grid2x2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-left: 220px;
+  margin-right: 200px;
+}
+.section_7 .grid_element {
+  padding: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 60px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.377);
+}
+.section_7 .grid_heading {
+  padding: 0;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 600;
+}
+.section_7 .grid_para {
+  padding-top: 10px;
+  color: rgb(77, 78, 86);
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.section_8,
+.section_9 {
+  display: block;
+  padding-bottom: 120px;
+}
+.image-4 {
+  padding-top: 80px;
+}
+.section_8 .para {
+  padding-right: 80px;
+}
+.section_9 .box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.section_9 .para {
+  display: inline;
+
+  margin-top: 100px;
+  text-align: left;
+  max-width: 550px;
+  padding: 15px 0px 27px 100px;
+}
+.section_10 {
+  margin-top: 0;
+  background-color: rgb(0, 0, 0);
+  margin-bottom: 100px;
+  padding-bottom: 20px;
+}
+
+.section_10 .bluebutton {
+  width: 165px;
+}
+
+.section_10 .text-1,
+.section_10 .text-2 {
+  color: white;
+}
+.last_section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  color: white;
+  background-color: rgb(14, 13, 13);
+  height: 80vh;
+  font-family: Inter;
+}
+.nordvpn,
+.vpn_apps,
+.engage,
+.help,
+.follow_us,
+.discover {
+  color: rgb(177, 177, 180);
+  line-height: 18px;
+  line-height: 18px;
+  font-weight: 600;
+  font-size: 12px;
+  text-align: left;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 50px;
+}
+.nordvpn div,
+.vpn_apps div,
+.engage div,
+.help div,
+.follow_us div,
+.discover div {
+  margin-bottom: 20px;
+  color: white;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: left;
+  cursor: pointer;
+  font-weight: 500;
+  transform: color 0.15s;
+}
+.nordvpn .a,
+.vpn_apps .a,
+.engage .a,
+.help .a,
+.follow_us .a,
+.discover .a {
+  margin-top: 30px;
+}
+
+.nordvpn div:hover,
+.vpn_apps div:hover,
+.engage div:hover,
+.help div:hover,
+.follow_us div:hover,
+.discover div:hover {
+  color: rgb(106, 106, 107);
+}
+.creditsandpaymodes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgb(14, 13, 13);
+  padding-bottom: 100px;
+}
+.credits {
+  text-align: left;
+  color: rgb(138, 138, 138);
+}
+.cc {
+  display: flex;
+  justify-content: end;
+}
